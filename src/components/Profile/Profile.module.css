@@ -37,6 +37,7 @@ display: grid;
   padding-left: 0;
   margin-bottom: 0;
   background-color: darkgrey;
+  list-style-type: none;
 }
 
 .item {

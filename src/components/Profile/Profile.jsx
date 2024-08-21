@@ -1,6 +1,6 @@
-import css from "./ProfileCard.module.css";
+import css from "../Profile/Profile.module.css";
 
-export default function ProfileCard ({user: {avatar, username, tag, location, stats}}) {
+export default function Profile ({user: {avatar, username, tag, location, stats}}) {
     return (
     <div className={css.container}>
     <div>
